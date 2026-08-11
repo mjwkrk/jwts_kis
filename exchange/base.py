@@ -1,6 +1,7 @@
 from abc import ABC, abstractmethod
 from core import BarArray, Snapshot, Holding, AccountSummary, Order, OrderResult
 
+
 class Exchange(ABC):
     """모든 거래소가 구현해야 할 공통 인터페이스.
 
