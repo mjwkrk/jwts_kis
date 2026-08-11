@@ -1,0 +1,34 @@
+# ─── 비밀 ───────────────────────────────
+.env
+.tokens/
+access_token.json
+paper_access_token.json
+*_access_token.json
+
+# ─── 데이터 (재수집 가능, 대용량) ─────────
+KIS_data/
+*.parquet
+*.mst
+
+# ─── 스크래치 ───────────────────────────
+테스트용.py
+테스트용.ipynb
+
+# ─── 생성물 ─────────────────────────────
+logs/
+*.log
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# ─── 환경 / OS ──────────────────────────
+.venv/
+venv/
+.DS_Store
+.vscode/
+.idea/
+
+# ─── 압축물 ─────────────────────────────
+*.zip
+__MACOSX/
